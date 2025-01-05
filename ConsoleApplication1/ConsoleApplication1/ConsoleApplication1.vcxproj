@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="Cpp.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Luascript.lua" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
