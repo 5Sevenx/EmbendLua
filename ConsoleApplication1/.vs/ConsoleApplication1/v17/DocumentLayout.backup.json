@@ -18,11 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cpp.cpp",
+              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Escritorio\\EmbLua\\ConsoleApplication1\\ConsoleApplication1\\Cpp.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\Cpp.cpp",
+              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Escritorio\\EmbLua\\ConsoleApplication1\\ConsoleApplication1\\Cpp.cpp*",
+              "RelativeToolTip": "ConsoleApplication1\\Cpp.cpp*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFEAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-04T16:54:00.922Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,23 +42,15 @@
               "RelativeDocumentMoniker": "ConsoleApplication1\\Luascript.lua",
               "ToolTip": "C:\\Users\\qwert\\OneDrive\\Escritorio\\EmbLua\\ConsoleApplication1\\ConsoleApplication1\\Luascript.lua*",
               "RelativeToolTip": "ConsoleApplication1\\Luascript.lua*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-01-05T14:50:52.339Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Cpp.cpp",
-              "DocumentMoniker": "C:\\Users\\qwert\\OneDrive\\Escritorio\\EmbLua\\ConsoleApplication1\\ConsoleApplication1\\Cpp.cpp",
-              "RelativeDocumentMoniker": "ConsoleApplication1\\Cpp.cpp",
-              "ToolTip": "C:\\Users\\qwert\\OneDrive\\Escritorio\\EmbLua\\ConsoleApplication1\\ConsoleApplication1\\Cpp.cpp*",
-              "RelativeToolTip": "ConsoleApplication1\\Cpp.cpp*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-04T16:54:00.922Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
