@@ -59,16 +59,34 @@ int main() {
 	if (Checklua(L, luaL_dofile(L, "Luascript.lua"))) {
 
 		//lua stack initiate
-		lua_getglobal(L, "sum");
-		if (lua_isfunction(L, -1)) {
-			lua_pushnumber(L, 4.5f);
-			lua_pushnumber(L, 8.3f);
+		lua_getglobal(L, "GetPlayer");
 
-//int lua_pcall(lua_State* L, int nargs, int nresults, int msgh);
-//2 - number of args we expect to recive, 1 - number of results we want to recive,0 - to get error msg
+		if (lua_isfunction(L, -1)) {
+			lua_pushnumber(L, 1);
                            
-			if (Checklua(L, lua_pcall(L, 2, 1, 0))) {
-				cout << "result:" << (float)lua_tonumber(L, -1) << endl;
+			if (Checklua(L, lua_pcall(L, 1, 1, 0))) {
+				if (lua_istable(L, -1)) {
+					lua_pushstring(L, "Name");
+					lua_gettable(L, -2);
+					player.name = lua_tostring(L, -1);
+					lua_pop(L, 1);
+
+					lua_pushstring(L, "Family");
+					lua_gettable(L, -2);
+					player.family = lua_tostring(L, -1);
+					lua_pop(L, 1);
+
+					lua_pushstring(L, "Title");
+					lua_gettable(L, -2);
+					player.title = lua_tostring(L, -1);
+					lua_pop(L, 1);
+
+					lua_pushstring(L, "Level");
+					lua_gettable(L, -2);
+					player.level = lua_tonumber(L, -1);
+					lua_pop(L, 1);
+					cout << player.title << " " << player.name << " of " << player.family << " [Lvl:" << player.level << "]" << endl;
+				}
 			}
 		}
 	}
